@@ -1,13 +1,23 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
 import './App.css';
 
+const tg = window.Telegram.WebApp
+
 function App() {
+
+  useEffect(() => {
+    tg.ready()
+  }, [])
+  
+
+  const onClose = () => {
+    tg.close()
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Yahoooooooo*8 :)</p>
-      </header>
+      Yahoooooooo*8 :)
+      <button onClick={onClose}>Close</button>
     </div>
   );
 }
