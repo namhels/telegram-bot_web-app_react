@@ -8,16 +8,10 @@ function App() {
   useEffect(() => {
     tg.ready()
   }, [])
-  
-
-  const onClose = () => {
-    tg.close()
-  };
 
   return (
     <div className="App">
       Yahoooooooo*8 :)
-      <button onClick={onClose}>Close</button>
     </div>
   );
 }
