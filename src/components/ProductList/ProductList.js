@@ -10,7 +10,7 @@ const products = [
     {id: '3', title: 'Underpants', price: 500, description: 'Black, stretch '},
     {id: '4', title: 'Hoodie with hood', price: 12200, description: 'Grey color, warm'},
     {id: '5', title: 'Cap', price: 3000, description: 'brown, warm'},
-    {id: '6', title: 'Jacket 7', price: 600, description: 'Green color, warm'},
+    {id: '6', title: 'Golf', price: 600, description: 'Grey color, warm, stretch'},
     {id: '7', title: 'Trousers', price: 5500, description: 'Brown, stretch'},
     {id: '8', title: 'Jacket 5', price: 12000, description: 'Green color, warm'},
 ]
