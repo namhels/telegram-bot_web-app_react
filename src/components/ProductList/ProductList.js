@@ -14,6 +14,7 @@ const products = [
     {id: '7', title: 'Trousers', price: 5500, description: 'Brown, stretch'},
     {id: '8', title: 'T-shirt', price: 4000, description: 'White color, tight'},
     {id: '9', title: 'Shorts', price: 3200, description: 'Black color, stretch'},
+    {id: '10', title: 'Sneakers', price: 8200, description: 'Black color, soft'},
 ]
 
 const getTotalPrice = (items = []) => {
