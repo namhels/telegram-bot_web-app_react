@@ -6,7 +6,7 @@ import {useCallback, useEffect} from "react";
 
 const products = [
     {id: '1', title: 'Jeans', price: 5000, description: 'Blue, straight'},
-    {id: '2', title: 'Jacket', price: 12000, description: 'Green color, warm'},
+    {id: '2', title: 'Jacket', price: 11800, description: 'Green color, warm'},
     {id: '3', title: 'Underpants', price: 500, description: 'Black, stretch '},
     {id: '4', title: 'Hoodie with hood', price: 12200, description: 'Grey color, warm'},
     {id: '5', title: 'Cap', price: 3000, description: 'brown, warm'},
