@@ -7,16 +7,14 @@ import {useCallback, useEffect} from "react";
 const products = [
     {id: '1', title: 'Jeans', price: 5000, description: 'Blue, straight'},
     {id: '2', title: 'Jacket', price: 11800, description: 'Green color, warm'},
-    {id: '3', title: 'Underpants', price: 1500, description: 'Black, stretch '},
-    {id: '4', title: 'Hoodie with hood', price: 12200, description: 'Grey color, warm'},
-    {id: '5', title: 'Cap', price: 3000, description: 'brown, warm'},
-    {id: '6', title: 'Golf', price: 6000, description: 'Grey color, warm, stretch'},
-    {id: '7', title: 'Trousers', price: 5500, description: 'Brown, stretch'},
-    {id: '8', title: 'T-shirt', price: 4000, description: 'White color, tight'},
-    {id: '9', title: 'Shorts', price: 3200, description: 'Black color, stretch'},
-    {id: '10', title: 'Sneakers', price: 8200, description: 'Black color, soft'},
-    {id: '11', title: 'Overalls', price: 12800, description: 'Blue color, functional and comfortable'},
-    {id: '12', title: 'Thermal underwear', price: 10800, description: 'Black color,warm'},
+    {id: '3', title: 'Hoodie with hood', price: 12200, description: 'Grey color, warm'},
+    {id: '4', title: 'Cap', price: 3000, description: 'brown, warm'},
+    {id: '5', title: 'Golf', price: 6000, description: 'Grey color, warm, stretch'},
+    {id: '6', title: 'T-shirt', price: 4000, description: 'White color, tight'},
+    {id: '7', title: 'Shorts', price: 3200, description: 'Black color, stretch'},
+    {id: '8', title: 'Sneakers', price: 8200, description: 'Black color, soft'},
+    {id: '9', title: 'Overalls', price: 12800, description: 'Blue color, functional and comfortable'},
+    {id: '10', title: 'Thermal underwear', price: 10800, description: 'Black color,warm'},
 ]
 
 const getTotalPrice = (items = []) => {
